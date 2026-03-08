@@ -32,14 +32,6 @@
     "ordem": 4
   },
   {
-    "id": 5,
-    "nome": "Rosário Compacto N.S. Aparecida – Rosa & Branco",
-    "categoria": "rosarios",
-    "preco": 25,
-    "imagem": "",
-    "ordem": 5
-  },
-  {
     "id": 6,
     "nome": "Terço São Bento – Dourado",
     "categoria": "tercos",
@@ -220,7 +212,7 @@
     "nome": "Terço Espírito Santo – Verde",
     "categoria": "tercos",
     "preco": 40,
-    "imagem": "https://i.ibb.co/zHN6BLb1/Whats-App-Image-2026-03-08-at-08-35-32-1.jpg",
+    "imagem": "",
     "ordem": 27
   },
   {
