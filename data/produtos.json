@@ -214,5 +214,13 @@
     "preco": 35,
     "imagem": "",
     "ordem": 28
+  },
+  {
+    "id": 29,
+    "nome": "Terço Nossa Senhora Aparecida - Azul Jeans - Luxo",
+    "categoria": "tercos",
+    "preco": 40,
+    "imagem": "https://i.ibb.co/S7y2Pg35/Whats-App-Image-2026-03-08-at-08-48-00.jpg",
+    "ordem": 32
   }
 ]
