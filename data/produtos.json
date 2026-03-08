@@ -16,6 +16,14 @@
     "ordem": 2
   },
   {
+    "id": 3,
+    "nome": "Terço N.S. das Graças – Azul & Cristal",
+    "categoria": "tercos",
+    "preco": 40,
+    "imagem": "https://i.ibb.co/4ZHC8bVf/terco-03.jpg",
+    "ordem": 3
+  },
+  {
     "id": 4,
     "nome": "Terço Luxo N.S. Aparecida – Royal & Branco",
     "categoria": "tercos",
