@@ -1,0 +1,226 @@
+[
+  {
+    "id": 1,
+    "nome": "Terço Nossa Senhora de Fátima – Tulipa & Pérola",
+    "categoria": "tercos",
+    "preco": 45.00,
+    "imagem": "",
+    "ordem": 1
+  },
+  {
+    "id": 2,
+    "nome": "Terço Compacto N.S. Aparecida – Marrom & Prata",
+    "categoria": "tercos",
+    "preco": 15.00,
+    "imagem": "",
+    "ordem": 2
+  },
+  {
+    "id": 3,
+    "nome": "Terço N.S. das Graças – Azul & Cristal",
+    "categoria": "tercos",
+    "preco": 40.00,
+    "imagem": "",
+    "ordem": 3
+  },
+  {
+    "id": 4,
+    "nome": "Terço Luxo N.S. Aparecida – Royal & Branco",
+    "categoria": "tercos",
+    "preco": 45.00,
+    "imagem": "",
+    "ordem": 4
+  },
+  {
+    "id": 5,
+    "nome": "Rosário Compacto N.S. Aparecida – Rosa & Branco",
+    "categoria": "rosarios",
+    "preco": 25.00,
+    "imagem": "",
+    "ordem": 5
+  },
+  {
+    "id": 6,
+    "nome": "Terço São Bento – Dourado",
+    "categoria": "tercos",
+    "preco": 25.00,
+    "imagem": "",
+    "ordem": 6
+  },
+  {
+    "id": 7,
+    "nome": "Terço Pulseira Exclusivo – Pérola & Dourado",
+    "categoria": "pulseiras",
+    "preco": 20.00,
+    "imagem": "",
+    "ordem": 7
+  },
+  {
+    "id": 8,
+    "nome": "Terço Compacto Santa Tereza – Pérola & Branco",
+    "categoria": "tercos",
+    "preco": 20.00,
+    "imagem": "",
+    "ordem": 8
+  },
+  {
+    "id": 9,
+    "nome": "Terço Compacto N.S. de Fátima – Pérola & Branco",
+    "categoria": "tercos",
+    "preco": 20.00,
+    "imagem": "",
+    "ordem": 9
+  },
+  {
+    "id": 10,
+    "nome": "Terço Santa Luzia – Verde & Branco",
+    "categoria": "tercos",
+    "preco": 35.00,
+    "imagem": "",
+    "ordem": 10
+  },
+  {
+    "id": 11,
+    "nome": "Terço Santa Terezinha – Rosa & Prata",
+    "categoria": "tercos",
+    "preco": 40.00,
+    "imagem": "",
+    "ordem": 11
+  },
+  {
+    "id": 12,
+    "nome": "Rosário Compacto N.S. Aparecida – Rosa & Branco",
+    "categoria": "rosarios",
+    "preco": 25.00,
+    "imagem": "",
+    "ordem": 12
+  },
+  {
+    "id": 13,
+    "nome": "Terço de Carro Exclusivo – Preto & Branco",
+    "categoria": "carro",
+    "preco": 15.00,
+    "imagem": "",
+    "ordem": 13
+  },
+  {
+    "id": 14,
+    "nome": "Rosário Compacto N.S. de Fátima – Marrom & Dourado",
+    "categoria": "rosarios",
+    "preco": 25.00,
+    "imagem": "",
+    "ordem": 14
+  },
+  {
+    "id": 15,
+    "nome": "Terço de Carro Exclusivo – Rosa & Branco",
+    "categoria": "carro",
+    "preco": 15.00,
+    "imagem": "",
+    "ordem": 15
+  },
+  {
+    "id": 16,
+    "nome": "Terço Pulseira São Miguel – Preto & Dourado",
+    "categoria": "pulseiras",
+    "preco": 20.00,
+    "imagem": "",
+    "ordem": 16
+  },
+  {
+    "id": 17,
+    "nome": "Terço Grande N.S. Aparecida – Turquesa & Pérola",
+    "categoria": "tercos",
+    "preco": 40.00,
+    "imagem": "",
+    "ordem": 17
+  },
+  {
+    "id": 18,
+    "nome": "Terço Pulseira Exclusivo – Branco & Prata",
+    "categoria": "pulseiras",
+    "preco": 20.00,
+    "imagem": "",
+    "ordem": 18
+  },
+  {
+    "id": 19,
+    "nome": "Terço Grande N.S. Aparecida – Esmeralda & Pérola",
+    "categoria": "tercos",
+    "preco": 40.00,
+    "imagem": "",
+    "ordem": 19
+  },
+  {
+    "id": 20,
+    "nome": "Terço N.S. Aparecida – Azul & Turquesa",
+    "categoria": "tercos",
+    "preco": 35.00,
+    "imagem": "",
+    "ordem": 20
+  },
+  {
+    "id": 21,
+    "nome": "Terço Luxo São Bento – Vermelho & Dourado",
+    "categoria": "tercos",
+    "preco": 40.00,
+    "imagem": "",
+    "ordem": 21
+  },
+  {
+    "id": 22,
+    "nome": "Terço Colar São Bento – Rosa & Prata",
+    "categoria": "tercos",
+    "preco": 20.00,
+    "imagem": "",
+    "ordem": 22
+  },
+  {
+    "id": 23,
+    "nome": "Terço Luxo N.S. de Fátima – Translúcida & Dourado",
+    "categoria": "tercos",
+    "preco": 40.00,
+    "imagem": "",
+    "ordem": 23
+  },
+  {
+    "id": 24,
+    "nome": "Terço Coroa das Lágrimas – Branco & Medalha Dupla",
+    "categoria": "tercos",
+    "preco": 20.00,
+    "imagem": "",
+    "ordem": 24
+  },
+  {
+    "id": 25,
+    "nome": "Terço Santa Rita – Vermelho & Dourado",
+    "categoria": "tercos",
+    "preco": 35.00,
+    "imagem": "",
+    "ordem": 25
+  },
+  {
+    "id": 26,
+    "nome": "Terço São José – Marrom & Dourado",
+    "categoria": "tercos",
+    "preco": 30.00,
+    "imagem": "",
+    "ordem": 26
+  },
+  {
+    "id": 27,
+    "nome": "Terço Espírito Santo – Verde",
+    "categoria": "tercos",
+    "preco": 40.00,
+    "imagem": "",
+    "ordem": 27
+  },
+  {
+    "id": 28,
+    "nome": "Terço Jesus Misericordioso – Rosa & Branco",
+    "categoria": "tercos",
+    "preco": 35.00,
+    "imagem": "",
+    "ordem": 28
+  }
+]
