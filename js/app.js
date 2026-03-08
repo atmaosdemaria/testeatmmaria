@@ -373,20 +373,30 @@ function limparCarrinho() {
 
 function enviarWhatsApp() {
   if (!carrinho.length) { alert('Carrinho vazio!'); return; }
-  let msg = 'Olá! Gostaria de fazer o seguinte pedido:%0A%0A';
+
+  let linhas = ['Olá! Gostaria de fazer o seguinte pedido:', ''];
   let total = 0;
+
   carrinho.forEach(p => {
-    const sub = parseFloat(p.preco) * (p.qty || 1);
+    const qty = p.qty || 1;
+    const sub = parseFloat(p.preco) * qty;
     total += sub;
-    msg += `• ${p.nome} (${p.qty}x) - R$ ${formatarPreco(sub)}%0A`;
+    linhas.push(`• ${p.nome}`);
+    linhas.push(`  Qtd: ${qty}x  |  R$ ${formatarPreco(sub)}`);
+    linhas.push('');
   });
-  msg += `%0A*Total: R$ ${formatarPreco(total)}*`;
+
+  linhas.push(`*Total do pedido: R$ ${formatarPreco(total)}*`);
+  linhas.push('');
+  linhas.push('_Aguardo confirmação. Obrigada! 🙏_');
+
+  const msg = encodeURIComponent(linhas.join('\n'));
   window.open(`https://wa.me/${CONFIG.whatsapp}?text=${msg}`, '_blank');
 }
 
 function comprarWhatsApp(nome, preco) {
-  const msg = `Olá! Tenho interesse neste produto:%0A%0A*${nome}*%0APreço: R$ ${formatarPreco(preco)}`;
-  window.open(`https://wa.me/${CONFIG.whatsapp}?text=${msg}`, '_blank');
+  const texto = `Olá! Tenho interesse neste produto:\n\n*${nome}*\nPreço: R$ ${formatarPreco(preco)}\n\nPoderia me dar mais informações? 🙏`;
+  window.open(`https://wa.me/${CONFIG.whatsapp}?text=${encodeURIComponent(texto)}`, '_blank');
 }
 
 // ========================================
