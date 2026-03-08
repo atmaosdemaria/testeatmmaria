@@ -36,15 +36,15 @@
     "nome": "Rosário Compacto N.S. Aparecida – Rosa & Branco",
     "categoria": "rosarios",
     "preco": 25,
-    "imagem": "https://i.ibb.co/YTySb50Y/terco-05.jpg",
+    "imagem": "",
     "ordem": 5
   },
   {
     "id": 6,
-    "nome": "Terço São Bento – Dourado",
+    "nome": "Terço São Bento – Dourado - Colar",
     "categoria": "tercos",
     "preco": 25,
-    "imagem": "",
+    "imagem": "https://i.ibb.co/DHpJm8XF/Whats-App-Image-2026-03-08-at-08-35-28.jpg",
     "ordem": 6
   },
   {
