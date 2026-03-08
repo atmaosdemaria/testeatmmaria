@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#4a90e2">
+
+    <title>Ateliê Mãos de Maria - Terços Artesanais</title>
+    <meta name="description" content="Ateliê Mãos de Maria - Terços artesanais feitos com amor e dedicação. Terços, rosários, pulseiras e terços para carro.">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- ========================================
+         MENU FIXO
+         ======================================== -->
+    <nav class="navbar">
+        <div class="navbar-container">
+            <a href="#" class="logo">
+                <img src="images/logo-maos-de-maria.jpg" alt="Mãos de Maria">
+                <span class="logo-text">Ateliê <span>Mãos de Maria</span></span>
+            </a>
+
+            <ul class="nav-menu">
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#produtos">Terços</a></li>
+                <li><a href="#video">Vídeo</a></li>
+                <li><a href="#depoimentos">Depoimentos</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+            </ul>
+
+            <div class="menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ========================================
+         HERO SECTION
+         ======================================== -->
+    <section id="inicio" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1>Terços Artesanais com <span>Amor e Fé</span></h1>
+                <p>Cada terço é confeccionado manualmente com materiais de qualidade,
+                   trazendo espiritualidade e beleza para o seu momento de oração.</p>
+                <div class="hero-buttons">
+                    <a href="#produtos" class="btn btn-primary">
+                        <i class="fas fa-shopping-bag"></i> Ver Produtos
+                    </a>
+                    <a href="https://wa.me/5519998949401" target="_blank" class="btn btn-secondary">
+                        <i class="fab fa-whatsapp"></i> Fale Conosco
+                    </a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="images/logo-maos-de-maria.jpg" alt="Ateliê Mãos de Maria">
+            </div>
+        </div>
+    </section>
+
+    <!-- ========================================
+         SEÇÃO PRODUTOS
+         ======================================== -->
+    <section id="produtos" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Nossos <span>Terços</span></h2>
+                <p>Escolha o terço perfeito para o seu momento de fé</p>
+            </div>
+
+            <!-- Filtros -->
+            <div class="filtros">
+                <button class="filtro-btn active" data-filtro="todos">Todos</button>
+                <button class="filtro-btn" data-filtro="tercos">Terços</button>
+                <button class="filtro-btn" data-filtro="rosarios">Rosários</button>
+                <button class="filtro-btn" data-filtro="pulseiras">Pulseiras</button>
+                <button class="filtro-btn" data-filtro="carro">Carro</button>
+            </div>
+
+            <!-- Grid de Produtos -->
+            <div class="produtos-grid" id="produtos-grid">
+                <!-- Produtos carregados via JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- ========================================
+         SEÇÃO VÍDEO
+         ======================================== -->
+    <section id="video" class="video-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Conheça Nosso <span>Trabalho</span></h2>
+                <p>Veja cada detalhe dos terços feitos artesanalmente</p>
+            </div>
+
+            <div class="video-wrapper" style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;border-radius:12px;box-shadow:0 20px 40px rgba(0,0,0,0.2)">
+                <iframe
+                    src="https://www.youtube.com/embed/1LMLt5HYegs"
+                    title="Ateliê Mãos de Maria"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen
+                    style="position:absolute;top:0;left:0;width:100%;height:100%;border-radius:12px">
+                </iframe>
+            </div>
+
+            <div class="botoes-video">
+                <a href="#produtos" class="btn btn-primary">
+                    <i class="fas fa-shopping-bag"></i> Ver Produtos
+                </a>
+                <button onclick="exportarPDF()" class="btn btn-secondary">
+                    <i class="fas fa-file-pdf"></i> Exportar Catálogo PDF
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========================================
+         SEÇÃO DEPOIMENTOS
+         ======================================== -->
+    <section id="depoimentos" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2>O Que Nossos <span>Clientes</span> Dizem</h2>
+                <p>Depoimentos de quem já adquiriu nossos terços</p>
+            </div>
+            <div class="depoimentos-grid" id="depoimentos-grid"></div>
+        </div>
+    </section>
+
+    <!-- ========================================
+         SEÇÃO SOBRE
+         ======================================== -->
+    <section id="sobre" class="section sobre-section">
+        <div class="container">
+            <div class="sobre-content">
+                <div class="sobre-texto">
+                    <h3>Sobre o Ateliê Mãos de Maria</h3>
+                    <p>O Ateliê Mãos de Maria nasceu da devoção e do desejo de levar a fé adiante
+                       através de terços artesanais de qualidade. Cada peça é confeccionada
+                       manualmente com materiais cuidadosamente selecionados.</p>
+                    <p>Nosso trabalho é uma forma de evangelização, levando a oração do terço
+                       para mais pessoas através de peças bonitas e duráveis.</p>
+
+                    <div class="sobre-valores">
+                        <div class="valor-item">
+                            <div class="valor-icon"><i class="fas fa-heart"></i></div>
+                            <h4>Feito com Amor</h4>
+                        </div>
+                        <div class="valor-item">
+                            <div class="valor-icon"><i class="fas fa-gem"></i></div>
+                            <h4>Material de Qualidade</h4>
+                        </div>
+                        <div class="valor-item">
+                            <div class="valor-icon"><i class="fas fa-hands-praying"></i></div>
+                            <h4>Consagrado</h4>
+                        </div>
+                        <div class="valor-item">
+                            <div class="valor-icon"><i class="fas fa-truck"></i></div>
+                            <h4>Entrega Rápida</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="sobre-imagem">
+                    <img src="images/logo-maos-de-maria.jpg" alt="Ateliê Mãos de Maria">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========================================
+         FOOTER
+         ======================================== -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-logo">
+                <img src="images/logo-maos-de-maria.jpg" alt="Mãos de Maria">
+                <p>Terços artesanais feitos com amor e dedicação para sua jornada de fé.</p>
+            </div>
+            <div class="footer-links">
+                <h4>Links Rápidos</h4>
+                <ul>
+                    <li><a href="#inicio">Início</a></li>
+                    <li><a href="#produtos">Terços</a></li>
+                    <li><a href="#video">Vídeo</a></li>
+                    <li><a href="#depoimentos">Depoimentos</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                </ul>
+            </div>
+            <div class="footer-contato">
+                <h4>Contato</h4>
+                <p><i class="fab fa-whatsapp"></i> (19) 99894-9401</p>
+                <p><i class="fas fa-envelope"></i> <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="28495c4549475b4c4d45495a4149684f45494144064b4745">[email&#160;protected]</a></p>
+                <p><i class="fas fa-map-marker-alt"></i> Mococa, SP</p>
+            </div>
+            <div class="footer-social">
+                <h4>Redes Sociais</h4>
+                <div class="social-links">
+                    <a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://wa.me/5519998949401" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Ateliê Mãos de Maria. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <!-- WhatsApp flutuante -->
+    <a href="https://wa.me/5519998949401" target="_blank" class="whatsapp-float">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Modal zoom produto -->
+    <div class="modal" id="modal">
+        <div class="modal-content">
+            <button class="modal-close">
+                <i class="fas fa-times"></i>
+            </button>
+            <img src="" alt="" id="modal-img">
+            <div class="modal-info">
+                <h3 id="modal-titulo"></h3>
+                <p id="modal-preco"></p>
+            </div>
+        </div>
+    </div>
+
+    <!-- ========================================
+         SCRIPTS — apenas estes dois!
+         =============
