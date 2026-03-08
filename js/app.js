@@ -5,8 +5,8 @@
 
 const CONFIG = {
   whatsapp: "5519998949401",
-  gh_owner: "erjinfo",
-  gh_repo:  "gestaocasa-atelie",
+  gh_owner: "atmaosdemaria",
+  gh_repo:  "testeatmmaria",
   gh_file:  "data/produtos.json"
 };
 

@@ -4,9 +4,9 @@
    ======================================== */
 
 const ADMIN = {
-  senha: 'maosdemaria2024',   // ← troque esta senha!
-  gh_owner: 'erjinfo',
-  gh_repo:  'gestaocasa-atelie',
+  senha: 'maosdemaria2024',
+  gh_owner: "atmaosdemaria",
+  gh_repo:  "testeatmmaria",
   gh_file:  'data/produtos.json',
   get token() { return localStorage.getItem('admin_gh_token') || ''; },
   get apiUrl() { return `https://api.github.com/repos/${this.gh_owner}/${this.gh_repo}/contents/${this.gh_file}`; },
